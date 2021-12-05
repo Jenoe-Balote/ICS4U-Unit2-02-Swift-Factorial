@@ -2,7 +2,7 @@
 //  Factorial.swift
 //
 //  Created by Jenoe Balote
-//  Created on 2021-12-01
+//  Created on 2021-12-04
 //  Version 1.0
 //  Copyright (c) 2021 Jenoe Balote. All rights reserved.
 //
