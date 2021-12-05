@@ -11,7 +11,7 @@
 
 import Foundation
 
-// Returns a factorial via recursion
+// Calculates factorial through recursion
 func factorial(input: Int) -> Int {
 
     if input == 0 {
@@ -21,16 +21,18 @@ func factorial(input: Int) -> Int {
     }
 }
 
-// Captures user input, feeds it to factorial() and outputs the reversed string
+// Input
 print("This program calculates factorials.")
 print("Enter an integer: ", terminator: "")
 
+// Validates user input
 guard let inputString = readLine(), !inputString.isEmpty else {
     print("Invalid input.")
     print("\nDone.")
     exit(001)
 }
 
+// Output
 if let input = Int(inputString) {
     let factorialValue = factorial(input: input)
     print("\(input)! = \(factorialValue)")
